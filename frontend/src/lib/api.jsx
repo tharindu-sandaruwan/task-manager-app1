@@ -1,5 +1,3 @@
-// In dev, Vite proxy can handle relative requests (no CORS).
-// In prod, set VITE_API_BASE_URL if backend is on another host.
 const DEFAULT_BASE_URL = ''
 
 function getBaseUrl() {
@@ -33,11 +31,7 @@ function normalizeErrorMessage(body) {
   return null
 }
 
-/**
- * Small fetch wrapper:
- * - JSON request/response
- * - throws Error(message) on non-2xx
- */
+
 export async function apiFetch(path, { method = 'GET', body, signal } = {}) {
   const url = `${getBaseUrl()}${path.startsWith('/') ? path : `/${path}`}`
 

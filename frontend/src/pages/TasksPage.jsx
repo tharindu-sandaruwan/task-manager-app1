@@ -55,7 +55,6 @@ export function TasksPage() {
       const users = await listUsers({ signal: controller.signal })
       setAssigneeEmails(extractUserEmails(users))
     } catch {
-      // If users can't be loaded, keep the dropdown empty; TaskDrawer will fallback to text input.
       setAssigneeEmails([])
     }
   }
