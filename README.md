@@ -41,7 +41,7 @@ This application allows users to create, assign, track, and manage tasks efficie
 ---
 
 ### 1️⃣ Clone the Repository
-- cd task-manager-app
+- cd task-manager-app1
 - CREATE DATABASE task_db;
 
 ### Update your application.properties
