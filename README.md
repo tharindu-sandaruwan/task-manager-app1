@@ -33,8 +33,8 @@ This application allows users to create, assign, track, and manage tasks efficie
 ## ⚙️ How to Run the Project Locally
 
 ### 🔧 Prerequisites
-- Java 17+
-- Node.js (v18+ recommended)
+- Java 21
+- Node.js 
 - MySQL
 - Maven
 
