@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b46e949-8470-4104-88da-5a6bb625b463" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task_manager_app/controller/ResponseDTO/ErrorResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/task_manager_app/controller/ResponseDTO/ErrorResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task_manager_app/exception/AppControllerAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/task_manager_app/exception/AppControllerAdvisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task_manager_app/exception/GlobalExceptionHandler.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5b46e949-8470-4104-88da-5a6bb625b463" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.TaskManagerAppApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,6 +80,7 @@
       <workItem from="1773556370805" duration="11456000" />
       <workItem from="1773574044926" duration="9845000" />
       <workItem from="1773640206581" duration="8996000" />
+      <workItem from="1773738809052" duration="3560000" />
     </task>
     <servers />
   </component>
