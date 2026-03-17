@@ -41,17 +41,15 @@ This application allows users to create, assign, track, and manage tasks efficie
 ---
 
 ### 1️⃣ Clone the Repository
-
-cd task-manager-app
-CREATE DATABASE task_db;
+- cd task-manager-app
+- CREATE DATABASE task_db;
 
 ### Update your application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/task_db?useSSL=false&serverTimezone=UTC
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+- spring.datasource.url=jdbc:mysql://localhost:3306/task_db?useSSL=false&serverTimezone=UTC
+- spring.datasource.username=your_username
+- spring.datasource.password=your_password
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
 
 ### Run Backend (Spring Boot)
 - cd backend
@@ -71,8 +69,6 @@ spring.jpa.show-sql=true
   
 <img width="806" height="749" alt="Screenshot 2026-03-17 154538" src="https://github.com/user-attachments/assets/ab0fe5f8-71a6-4670-93f6-0ac2235358aa" />
 
-
-
 ### Design Decisions & Assumptions
 - Tasks are assigned using email instead of user ID for simplicity
 - createdAt is automatically set when task is created
@@ -91,6 +87,13 @@ spring.jpa.show-sql=true
 - Deploy using Docker / AWS
 - Add unit & integration testing
 - Email notifications for task assignment
+
+### Example UI of Working App
+
+<img width="1898" height="989" alt="Screenshot 2026-03-17 151139" src="https://github.com/user-attachments/assets/8b0b2e8c-bb46-48f6-a722-ebd891490eaf" />
+<img width="1898" height="989" alt="Screenshot 2026-03-17 151139" src="https://github.com/user-attachments/assets/8b0b2e8c-bb46-48f6-a722-ebd891490eaf" />
+<img width="1843" height="968" alt="Screenshot 2026-03-17 152028" src="https://github.com/user-attachments/assets/b4b180b4-45b5-42bc-bab5-ca756d62c68e" />
+<img width="1843" height="968" alt="Screenshot 2026-03-17 152028" src="https://github.com/user-attachments/assets/b4b180b4-45b5-42bc-bab5-ca756d62c68e" />
 
 
 
