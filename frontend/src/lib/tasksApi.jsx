@@ -14,18 +14,17 @@ export const Priority = {
 
 export async function listTasks({ signal } = {}) {
   const data = await apiFetch('/tasks', { signal })
-  // Controller returns List<TaskResponseDTO>
+
   return Array.isArray(data) ? data : data?.data ?? []
 }
 
 export async function createTask(payload) {
-  // Your ApiResponseDTO currently returns only { message } (no `data` field),
-  // so treat any JSON response as a success.
+
   return await apiFetch('/tasks', { method: 'POST', body: payload })
 }
 
 export async function updateTask(id, payload) {
-  // Controller returns void; treat as success if 2xx
+
   await apiFetch(`/tasks/${id}`, { method: 'PUT', body: payload })
 }
 
