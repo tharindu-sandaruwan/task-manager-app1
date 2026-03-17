@@ -45,7 +45,7 @@ This application allows users to create, assign, track, and manage tasks efficie
 cd task-manager-app
 CREATE DATABASE task_db;
 
-###Update your application.properties
+### Update your application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/task_db?useSSL=false&serverTimezone=UTC
 spring.datasource.username=your_username
 spring.datasource.password=your_password
@@ -53,7 +53,7 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-###Run Backend (Spring Boot)
+### Run Backend (Spring Boot)
 - cd backend
 - mvn spring-boot:run
 - Backend runs on - http://localhost:8080
@@ -68,25 +68,10 @@ spring.jpa.show-sql=true
 - Relational structure fits well with User ↔ Task relationship
 - Easy integration with Spring Boot (JPA/Hibernate)
 - Widely used in industry
+  
+<img width="806" height="749" alt="Screenshot 2026-03-17 154538" src="https://github.com/user-attachments/assets/ab0fe5f8-71a6-4670-93f6-0ac2235358aa" />
 
-### API Endpoints
 
-## Task APIs
-Method	Endpoint	                 Description
-POST	  /tasks	                   Create a task
-GET	    /tasks	                   Get all tasks
-GET	    /tasks/status/{status}	   Filter by status
-GET	    /tasks/assignee/{email}	   Filter by assignee
-GET	    /tasks/sort/dueDate	       Sort by due date
-GET	    /tasks/sort/priority	     Sort by priority
-PUT	    /tasks/{task-id}	         Update task
-DELETE	/tasks/{task-id}	         Delete task
-PATCH	 /tasks/{id}/complete	       Mark task as completed
-
-## User APIs
-Method	Endpoint	 Description
-POST	  /users	   Create user
-GET   	/users	   Get all users
 
 ### Design Decisions & Assumptions
 - Tasks are assigned using email instead of user ID for simplicity
