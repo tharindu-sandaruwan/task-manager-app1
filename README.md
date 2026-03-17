@@ -92,6 +92,8 @@ This application allows users to create, assign, track, and manage tasks efficie
 
 <img width="1898" height="989" alt="Screenshot 2026-03-17 151139" src="https://github.com/user-attachments/assets/8b0b2e8c-bb46-48f6-a722-ebd891490eaf" />
 
+<img width="1873" height="963" alt="Screenshot 2026-03-17 151732" src="https://github.com/user-attachments/assets/12e51c5c-70a1-4f1f-a2ae-74ba97a87215" />
+
 <img width="1843" height="968" alt="Screenshot 2026-03-17 152028" src="https://github.com/user-attachments/assets/b4b180b4-45b5-42bc-bab5-ca756d62c68e" />
 
 
